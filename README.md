@@ -16,13 +16,19 @@ This project is designed to analyze trending YouTube video statistics and presen
     pip install fastapi uvicorn streamlit pandas numpy requests
 
 **2. Run the Backend Server**
+  
   bash
+    
     python backend.py
 
 **3. Run the Frontend Interface**
+  
   bash
+    
     streamlit run fronted.py
 
 **File Structure**
+ 
  ⁠backend.py⁠ — Handles API requests and data processing.
- ⁠fronted.py⁠ — The user interface displaying the analytics dashboard.
+ ⁠
+ fronted.py⁠ — The user interface displaying the analytics dashboard.
