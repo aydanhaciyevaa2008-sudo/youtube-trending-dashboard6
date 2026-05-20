@@ -9,17 +9,17 @@ This project is designed to analyze trending YouTube video statistics and presen
 
 ##  Installation and Running the Project
 
-### **1. Install Required Libraries**
-  ```bash
-    pip install fastapi uvicorn streamlit pandas numpy requests```
+**1. Install Required Libraries**
+  bash
+    pip install fastapi uvicorn streamlit pandas numpy requests
 
 **2. Run the Backend Server**
-  ```bash
-    python backend.py```
+  bash
+    python backend.py
 
 **3. Run the Frontend Interface**
-  ```bash
-    streamlit run fronted.py```
+  bash
+    streamlit run fronted.py
 
 **File Structure**
  ⁠backend.py⁠ — Handles API requests and data processing.
